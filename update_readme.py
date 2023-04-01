@@ -5,7 +5,7 @@ import os
 problems = [ x[0] for x in os.walk("./solutions") ]
 
 def problem_url(problem):
-    url = "[{title}](https://open.kattis.c½om/problems)"
+    url = "[{title}](https://open.kattis.com/problems)"
     return url.format(title = problem)
 
 with open("README.md", "w") as f:
