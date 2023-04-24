@@ -66,7 +66,7 @@ def get_problem_info(problem):
 def write_readme():
     problems = [ x[1] for x in os.walk("./solutions/") ]
     with open("README.md", "w") as f:
-        f.write("# Kattis\n")
+        f.write("# Kattis 🐱\n")
         f.write("These are my solutions to kattis problems\n")
         f.write("## [Open Kattis](https://open.kattis.com/)\n")
         f.write("| Problem | Solutions | Difficulty |\n")
