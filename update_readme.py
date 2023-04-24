@@ -68,6 +68,8 @@ def write_readme():
     problems = [ x[1] for x in os.walk("./solutions/") ]
     with open("README.md", "w") as f:
         f.write("# Kattis\n")
+        f.write("These are my solutions to kattis problems")
+        f.write("## [Open Kattis](https://open.kattis.com/)")
         f.write("| Problem | Solutions | Difficulty |\n")
         f.write("| ------- | --------- | ---------- |\n")
         for problem in problems[0]:
@@ -92,6 +94,9 @@ def write_readme():
             # Write difficulty rating
             diff = problem_dict["difficulty"]
             f.write(f" {diff} |\n")
-
+        f.write("## LilleKat\n")
+        f.write("## Notes\n")
+        f.write("The `update_readme.py` script requires a relatively strict file structure and naming convention in order to work: Problems are found in the `solutions/` dir. The title of a problem is determined by the subdirs in `solutions/`. Each subdir has a list of solution files. The name of these files must correspond to the name in the kattis problem url. For instance a solution to the *Knight Packing* problem, must be called `knightpacking.cpp`.\n")
+        f.write("\nCredits must be given to [this repo](https://github.com/robertusbagaskara/kattis-solutions/tree/master), for inspiration on the script.")
 if __name__ == '__main__':
     write_readme()
