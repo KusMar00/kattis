@@ -22,23 +22,19 @@ def scrape_problem(problem_url):
 def list_solutions(problem):
     return
 
-def write_readme(problems):
+def write_readme():
+    problems = [ x[1] for x in os.walk("./solutions") ]
     with open("README.md", "w") as f:
         f.write("# Kattis\n")
         f.write("| Problem | Solutions | Difficulty |\n")
         f.write("| ------- | --------- | ---------- |\n")
         for problem in problems:
-            split = problem.split("/");
-            if len(split) < 3 :
-                continue
-            f.write("| " + problem_url(split[-1]) + " | ")
+            f.write("| " + problem_url(problem) + " | ")
             f.write(" - | 0.0 |\n")
 
 def main():
-    problems = [ x[0] for x in os.walk("./solutions") ]
-    write_readme(problem)
+    write_readme()
 
 
 if __name__ == '__main__':
-    scrape_problem("https://open.kattis.com/problems/sequences")
-    #sys.exit(main(sys.argv[1:]))
+    write_readme()
