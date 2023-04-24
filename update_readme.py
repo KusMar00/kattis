@@ -59,7 +59,6 @@ def get_problem_info(problem):
             problem_dict["solutions"].append(url)
     
     problem_dict["url"] = get_problem_url(problem_dict["origin"])
-    print(problem_dict["url"] )
     problem_dict["difficulty"] = scrape_problem(problem_dict["url"])
 
     return problem_dict
@@ -68,8 +67,8 @@ def write_readme():
     problems = [ x[1] for x in os.walk("./solutions/") ]
     with open("README.md", "w") as f:
         f.write("# Kattis\n")
-        f.write("These are my solutions to kattis problems")
-        f.write("## [Open Kattis](https://open.kattis.com/)")
+        f.write("These are my solutions to kattis problems\n")
+        f.write("## [Open Kattis](https://open.kattis.com/)\n")
         f.write("| Problem | Solutions | Difficulty |\n")
         f.write("| ------- | --------- | ---------- |\n")
         for problem in problems[0]:
@@ -85,7 +84,6 @@ def write_readme():
             solutions = problem_dict["solutions"]
             for solution in solutions:
                 if solution == solutions[-1]:
-                    print(solution)
                     f.write(solution)
                 else:
                     f.write(solution + ", ")

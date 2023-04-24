@@ -1,5 +1,7 @@
 # Kattis
-These are my solutions to kattis problems## [Open Kattis](https://open.kattis.com/)| Problem | Solutions | Difficulty |
+These are my solutions to kattis problems
+## [Open Kattis](https://open.kattis.com/)
+| Problem | Solutions | Difficulty |
 | ------- | --------- | ---------- |
 | [Logic Functions](https://open.kattis.com/problems/logicfunctions) | [C++](https://github.com/KusMar00/kattis/tree/main/solutions/Logic%20Functions/logicfunctions.cpp) | 1.6 |
 | [Knight Packing](https://open.kattis.com/problems/knightpacking) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/Knight%20Packing/knightpacking.c) | 1.3 |
