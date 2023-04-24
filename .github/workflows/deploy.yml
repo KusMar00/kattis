@@ -3,7 +3,7 @@ name: Update README
 on:
   push:
     branches:
-      - main
+      - new-solutions
 
 jobs:
   update-readme:
@@ -18,3 +18,16 @@ jobs:
 
     - name: Run script
       run: python update_readme.py
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add solution"
+      
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
