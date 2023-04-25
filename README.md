@@ -30,7 +30,7 @@ These are my solutions to kattis problems
 | [Quick Estimates](https://open.kattis.com/problems/quickestimate) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Quick%20Estimates/quickestimate.go) | 1.6 |
 | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Drinking%20Song/Drinkingsong.java) | 2.3 |
 | [Alphabet Spam](https://open.kattis.com/problems/alphabetspam) | [F#](https://github.com/KusMar00/kattis/tree/main/solutions/Alphabet%20Spam/alphabetspam.fs), [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Alphabet%20Spam/alphabetspam.java) | 1.4 |
-| [Cinema Crowds](https://open.kattis.com/problems/sample2) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Cinema%20Crowds/cinema.go) |  |
+| [Cinema Crowds](https://open.kattis.com/problems/cinema) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Cinema%20Crowds/cinema.go) | 2.2 |
 | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Stuck%20In%20A%20Time%20Loop/TimeLoop.java) | 1.3 |
 | [Ladder](https://open.kattis.com/problems/ladder) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Ladder/ladder.go) | 1.5 |
 | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/IsItHalloween.com/isithalloween.go) | 1.4 |
