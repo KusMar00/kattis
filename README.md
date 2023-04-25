@@ -1,5 +1,5 @@
-# Kattis
-These are my solutions to kattis problems
+# Kattis 
+These are my solutions to kattis problems.
 ## [Open Kattis](https://open.kattis.com/)
 | Problem | Solutions | Difficulty |
 | ------- | --------- | ---------- |
