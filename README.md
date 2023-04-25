@@ -5,9 +5,41 @@ These are my solutions to kattis problems
 | Problem | Solutions | Difficulty |
 | ------- | --------- | ---------- |
 | [Knight Packing](https://open.kattis.com/problems/knightpacking) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/Knight%20Packing/knightpacking.c) | 1.3 |
+| [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Take%20Two%20Stones/twostones.java) | 1.3 |
+| [A New Alphabet](https://open.kattis.com/problems/anewalphabet) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/A%20New%20Alphabet/anewalphabet.java) | 1.9 |
+| [Solving For Carrots](https://open.kattis.com/problems/Carrots) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Solving%20For%20Carrots/Carrots.java) |  |
+| [Zamka](https://open.kattis.com/problems/Zamka) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Zamka/Zamka.java) |  |
+| [FizzBuzz](https://open.kattis.com/problems/FizzBuzz) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/FizzBuzz/FizzBuzz.java) |  |
+| [Laptop Sticker](https://open.kattis.com/problems/sticker-0001) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Laptop%20Sticker/laptopsticker.go) |  |
+| [A List Game](https://open.kattis.com/problems/listgame) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/A%20List%20Game/ListGame.java) | 3.0 |
+| [ABC](https://open.kattis.com/problems/README) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/ABC/ABC.java) |  |
 | [Logic Functions](https://open.kattis.com/problems/logicfunctions) | [C++](https://github.com/KusMar00/kattis/tree/main/solutions/Logic%20Functions/logicfunctions.cpp) | 1.6 |
 | [Metronome](https://open.kattis.com/problems/metronome) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/Metronome/metronome.c) | 1.3 |
+| [Grass Seed Inc.](https://open.kattis.com/problems/Grassseed) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Grass%20Seed%20Inc./Grassseed.java) |  |
+| [A Different Problem](https://open.kattis.com/problems/README) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/A%20Different%20Problem/Different.java) |  |
+| [Cinema Crowds 2](https://open.kattis.com/problems/cinema2) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Cinema%20Crowds%202/cinema2.go) | 1.8 |
+| [No Duplicates](https://open.kattis.com/problems/nodup) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/No%20Duplicates/nodup.java) | 1.5 |
+| [Odd Echo](https://open.kattis.com/problems/1) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Odd%20Echo/oddecho.go) |  |
+| [Digit Swap](https://open.kattis.com/problems/digitswap) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Digit%20Swap/digitswap.go) | 1.3 |
+| [Above Average](https://open.kattis.com/problems/aboveaverage) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Above%20Average/aboveaverage.go) | 2.4 |
+| [Pot](https://open.kattis.com/problems/Pot) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Pot/Pot.java) |  |
 | [99 Problems](https://open.kattis.com/problems/99problems) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/99%20Problems/99problems.c) | 2.8 |
+| [Hello World!](https://open.kattis.com/problems/Hello) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Hello%20World!/Hello.java) |  |
+| [Stopwatch](https://open.kattis.com/problems/1) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Stopwatch/stopwatch.go) |  |
+| [I've Been Everywhere, Man](https://open.kattis.com/problems/Everywhere) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/I've%20Been%20Everywhere,%20Man/Everywhere.java) |  |
+| [Quick Estimates](https://open.kattis.com/problems/1) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Quick%20Estimates/quickestimate.go) |  |
+| [Drinking Song](https://open.kattis.com/problems/Drinkingsong) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Drinking%20Song/Drinkingsong.java) |  |
+| [Alphabet Spam](https://open.kattis.com/problems/1) | [F#](https://github.com/KusMar00/kattis/tree/main/solutions/Alphabet%20Spam/alphabetspam.fs), [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Alphabet%20Spam/alphabetspam.java) |  |
+| [Cinema Crowds](https://open.kattis.com/problems/sample2) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Cinema%20Crowds/cinema.go) |  |
+| [Stuck In A Time Loop](https://open.kattis.com/problems/TimeLoop) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Stuck%20In%20A%20Time%20Loop/TimeLoop.java) |  |
+| [Ladder](https://open.kattis.com/problems/ladder) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Ladder/ladder.go) | 1.5 |
+| [IsItHalloween.com](https://open.kattis.com/problems/1) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/IsItHalloween.com/isithalloween.go) |  |
+| [R2](https://open.kattis.com/problems/r2) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/R2/r2.java) | 1.3 |
+| [Cold-puter Science](https://open.kattis.com/problems/Cold) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Cold-puter%20Science/Cold.java) |  |
+| [Quadrant Selection](https://open.kattis.com/problems/Quadrant) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Quadrant%20Selection/Quadrant.java) |  |
+| [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Hissing%20Microphone/hissingmicrophone.java) | 1.4 |
+| [Last Factorial Digit](https://open.kattis.com/problems/1) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Last%20Factorial%20Digit/lastfactorialdigit.go) |  |
+| [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Nasty%20Hacks/nastyhacks.java) | 1.4 |
 ## LilleKat
 ## DPOP
 ## Notes
