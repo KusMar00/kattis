@@ -19,12 +19,17 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run script to update README
         run: python update_readme.py
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v7.1.1
-        with:
-          message: "Update README"
-          add: README.md
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: actions/github-script@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const github = require('@actions/github');
+            const octokit = new github.GitHub('${{ secrets.PAT }}');
+            octokit.repos.createOrUpdateFileContents({
+              owner: '${{ github.repository_owner }}',
+              repo: '${{ github.repository }}',
+              path: 'README.md',
+              message: 'Update README',
+              content: Buffer.from(fs.readFileSync('README.md')).toString('base64'),
+              sha: '${{ github.event.head_commit.id }}'
+            });
