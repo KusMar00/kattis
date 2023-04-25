@@ -23,13 +23,13 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const github = require('@actions/github');
-            const octokit = new github.GitHub('${{ secrets.PAT }}');
+            const gh = require('@actions/github');
+            const octokit = new gh.GitHub('${{ secrets.PAT }}');
             octokit.repos.createOrUpdateFileContents({
-              owner: '${{ github.repository_owner }}',
-              repo: '${{ github.repository }}',
+              owner: '${{ gh.repository_owner }}',
+              repo: '${{ gh.repository }}',
               path: 'README.md',
               message: 'Update README',
               content: Buffer.from(fs.readFileSync('README.md')).toString('base64'),
-              sha: '${{ github.event.head_commit.id }}'
+              sha: '${{ gh.event.head_commit.id }}'
             });
