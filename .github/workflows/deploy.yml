@@ -26,8 +26,8 @@ jobs:
             const gh = require('@actions/github');
             const octokit = new gh.GitHub('${{ secrets.PAT }}');
             octokit.repos.createOrUpdateFileContents({
-              owner: '${{ gh.repository_owner }}',
-              repo: '${{ gh.repository }}',
+              owner: '${{ github.repository_owner }}',
+              repo: '${{ github.repository }}',
               path: 'README.md',
               message: 'Update README',
               content: Buffer.from(fs.readFileSync('README.md')).toString('base64'),
