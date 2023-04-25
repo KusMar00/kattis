@@ -3,31 +3,28 @@ name: Update README
 on:
   push:
     branches:
-      - new-solutions
+      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run script
-      run: python update_readme.py
-
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Add solution"
-      
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run script to update README
+        run: python update_readme.py
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7.1.1
+        with:
+          message: "Update README"
+          add: README.md
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
