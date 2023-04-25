@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 # Gives a link to the problem description from Kattis
 def get_problem_url(problem):
+    problem = str(problem).lower()
     url = f"https://open.kattis.com/problems/{problem}"
     return url
 
