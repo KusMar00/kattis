@@ -1,3 +1,4 @@
+[![Update README](https://github.com/KusMar00/kattis/actions/workflows/deploy.yml/badge.svg)](https://github.com/KusMar00/kattis/actions/workflows/deploy.yml)
 # Kattis 🐱
 These are my solutions to kattis problems
 ## [Open Kattis](https://open.kattis.com/)
@@ -8,7 +9,7 @@ These are my solutions to kattis problems
 | [Metronome](https://open.kattis.com/problems/metronome) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/Metronome/metronome.c) | 1.3 |
 | [99 Problems](https://open.kattis.com/problems/99problems) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/99%20Problems/99problems.c) | 2.8 |
 ## LilleKat
-##DPOP
+## DPOP
 ## Notes
 The `update_readme.py` script requires a relatively strict file structure and naming convention in order to work: Problems are found in the `/solutions/` dir. The title of a problem is determined by the subdirs here. Each subdir has a list of solution files. The name of these files must correspond to the name in the kattis problem url. For instance a solution to the *Knight Packing* problem, must be called `knightpacking.cpp`.
 
