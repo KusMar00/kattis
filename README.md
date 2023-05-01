@@ -18,6 +18,7 @@ These are my solutions to kattis problems
 | [No Duplicates](https://open.kattis.com/problems/nodup) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/No%20Duplicates/nodup.java) | 1.5 |
 | [Digit Swap](https://open.kattis.com/problems/digitswap) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Digit%20Swap/digitswap.go) | 1.3 |
 | [Take Two Stones](https://open.kattis.com/problems/twostones) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Take%20Two%20Stones/twostones.java) | 1.3 |
+| [Poker Hand](https://open.kattis.com/problems/pokerhand) | [Python](https://github.com/KusMar00/kattis/tree/main/solutions/Poker%20Hand/pokerhand.py) | 1.5 |
 | [Cold-puter Science](https://open.kattis.com/problems/cold) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Cold-puter%20Science/Cold.java) | 1.3 |
 | [Grass Seed Inc.](https://open.kattis.com/problems/grassseed) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Grass%20Seed%20Inc./Grassseed.java) | 1.3 |
 | [Quadrant Selection](https://open.kattis.com/problems/quadrant) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Quadrant%20Selection/Quadrant.java) | 1.3 |
