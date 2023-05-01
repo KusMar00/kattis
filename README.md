@@ -11,6 +11,7 @@ These are my solutions to kattis problems
 | [Zamka](https://open.kattis.com/problems/zamka) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Zamka/Zamka.java) | 1.4 |
 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/FizzBuzz/FizzBuzz.java) | 1.4 |
 | [Laptop Sticker](https://open.kattis.com/problems/laptopsticker) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Laptop%20Sticker/laptopsticker.go) | 1.5 |
+| [Soda Slurper](https://open.kattis.com/problems/sodaslurper) | [C](https://github.com/KusMar00/kattis/tree/main/solutions/Soda%20Slurper/sodaslurper.c) | 1.8 |
 | [A List Game](https://open.kattis.com/problems/listgame) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/A%20List%20Game/ListGame.java) | 3.0 |
 | [ABC](https://open.kattis.com/problems/abc) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/ABC/ABC.java) | 2.2 |
 | [Logic Functions](https://open.kattis.com/problems/logicfunctions) | [C++](https://github.com/KusMar00/kattis/tree/main/solutions/Logic%20Functions/logicfunctions.cpp) | 1.6 |
