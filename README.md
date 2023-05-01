@@ -42,6 +42,7 @@ These are my solutions to kattis problems
 | [Pot](https://open.kattis.com/problems/pot) | [Java](https://github.com/KusMar00/kattis/tree/main/solutions/Pot/Pot.java) | 1.4 |
 | [Ladder](https://open.kattis.com/problems/ladder) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/Ladder/ladder.go) | 1.5 |
 | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween) | [Go](https://github.com/KusMar00/kattis/tree/main/solutions/IsItHalloween.com/isithalloween.go) | 1.4 |
+| [Sticky Keys](https://open.kattis.com/problems/stickykeys) | [Python](https://github.com/KusMar00/kattis/tree/main/solutions/Sticky%20Keys/stickykeys.py) | 1.5 |
 | [Stand on Zanzibar](https://open.kattis.com/problems/zanzibar) | [Python](https://github.com/KusMar00/kattis/tree/main/solutions/Stand%20on%20Zanzibar/zanzibar.py) | 1.5 |
 ## LilleKat
 ## DPOP
